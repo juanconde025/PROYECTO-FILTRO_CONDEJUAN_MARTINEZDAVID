@@ -5,8 +5,6 @@
     flex-direction: row;
     justify-content: space-around;
     background-color: rgb(240, 240, 240);
-    position: sticky;
-    top: 0;
 }
 
 .top-page__left{
@@ -42,4 +40,12 @@
     margin-left: 5%;
     justify-content: center;
     align-items: center;
+}
+
+
+#flores-favoritas{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    gap: 20%;
 }
