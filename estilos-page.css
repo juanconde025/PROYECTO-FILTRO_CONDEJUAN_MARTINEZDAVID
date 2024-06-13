@@ -1,10 +1,11 @@
-
-
 #top-page{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
+    gap: 15%;
     background-color: rgb(240, 240, 240);
+    position: sticky;
+    top: 0;
 }
 
 .top-page__left{
@@ -18,6 +19,14 @@
 .top-page__left__a{
     text-decoration: none;
     color: #000;
+    font-family: "Pacifico";
+    transition-property: "text-decoration";
+    transition-duration: 1s;
+}
+
+.top-page__left__a:hover{
+    text-decoration:dashed;
+    color: #ccc07a;
 }
 
 #logo{
@@ -34,18 +43,62 @@
     border-radius: 50%;
 }
 
-#carouselExample{
-    width: 90%;
-    display: flex;
-    margin-left: 5%;
-    justify-content: center;
-    align-items: center;
+#panel-presentación{
+    height: 300px;
+    width: 420px;
+    background-image: url("Panel\ presentacion\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50vh;
+    transition-property: "background-image","background-position";
+    transition-duration: 1s,1s;
 }
 
+#panel-presentación:hover{
+    height: 300px;
+    background-image: url("Panel\ presentacion\ 2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#title-fav{
+    font-family: "Pacifico";
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 3%;
+}
 
 #flores-favoritas{
+    
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
-    gap: 20%;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-left: 20% ;
+}
+
+.flores-favoritas__flor-1__precio{
+    width: 60%;
+    background-color: rgb(240, 240, 240);
+}
+
+.flores-favoritas__flor-2__precio{
+    width: 60%;
+    background-color: rgb(240, 240, 240);
+}
+
+.flores-favoritas__flor-3__precio{
+    width: 60%;
+    background-color: rgb(240, 240, 240);
+}
+
+#flores-favoritas a{
+    text-decoration: none;
+    color: #000;
+    font-family: "Pacifico";
+}
+
+#flores-favoritas img{
+    border-radius: 15% 15% 30% 30% ;
 }
