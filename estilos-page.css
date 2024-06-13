@@ -1,0 +1,36 @@
+
+
+#top-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(240, 240, 240);
+}
+
+.top-page__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5%;
+}
+
+.top-page__left__a{
+    text-decoration: none;
+    color: #000;
+}
+
+.top-page__right{
+    display: flex;
+    align-items:center;
+    justify-content: left;
+}
+
+#cuenta{
+    border-radius: 50%;
+}
+
+#carouselExample{
+    width: 80%;
+    height: 20%;
+}
