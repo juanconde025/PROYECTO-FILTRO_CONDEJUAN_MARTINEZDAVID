@@ -5,14 +5,16 @@
     flex-direction: row;
     justify-content: space-around;
     background-color: rgb(240, 240, 240);
+    position: sticky;
+    top: 0;
 }
 
 .top-page__left{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 5%;
+    
 }
 
 .top-page__left__a{
@@ -20,10 +22,14 @@
     color: #000;
 }
 
+#logo{
+    border-radius: 50%;
+}
+
 .top-page__right{
     display: flex;
     align-items:center;
-    justify-content: left;
+    justify-content: center;
 }
 
 #cuenta{
@@ -31,6 +37,9 @@
 }
 
 #carouselExample{
-    width: 80%;
-    height: 20%;
+    width: 90%;
+    display: flex;
+    margin-left: 5%;
+    justify-content: center;
+    align-items: center;
 }
