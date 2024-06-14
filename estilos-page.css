@@ -45,20 +45,19 @@
 
 #panel-presentación{
     height: 300px;
-    width: 420px;
+    width: 410px;
     background-image: url("Panel\ presentacion\ 1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50vh;
-    transition-property: "background-image","background-position";
-    transition-duration: 1s,1s;
+    transition-property: "background-image";
+    transition-duration: 1s;
 }
 
 #panel-presentación:hover{
     height: 300px;
     background-image: url("Panel\ presentacion\ 2.jpg");
     background-repeat: no-repeat;
-    background-position: center;
 }
 
 #title-fav{
