@@ -141,6 +141,7 @@
     padding-left: 10%;
     gap: 30px;
     text-align: center;
+    font-family: "Pacifico";
 }
 
 #Contacto img{
@@ -148,12 +149,9 @@
 }
 
 .carrito-img{
-    background-color: #ccc07a;
+    border-top: 10px solid #ccc07a;
+    background-color: #f0e8bc;
     display: flex;
     justify-content: center;
     border-radius: 20% 20%;
-    position: sticky;
-    bottom: 0;
-    width: 100%;
 }
-

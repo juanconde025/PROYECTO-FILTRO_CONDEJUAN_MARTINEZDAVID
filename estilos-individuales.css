@@ -1,0 +1,93 @@
+#top-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 15%;
+    background-color: rgb(240, 240, 240);
+    position: sticky;
+    top: 0;
+}
+
+.top-page__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.top-page__left__a{
+    text-decoration: none;
+    color: #000;
+    font-family: "Pacifico";
+    transition-property: "text-decoration";
+    transition-duration: 1s;
+}
+
+.top-page__left__a:hover{
+    text-decoration:dashed;
+    color: #ccc07a;
+}
+
+#logo{
+    border-radius: 50%;
+}
+
+.top-page__right{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+#cuenta{
+    border-radius: 50%;
+}
+
+#title-individuales{
+    font-family: "Pacifico";
+    font-size: 40px;
+}
+
+.flor-individual{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border: 10px solid #ccc07a;
+    border-radius: 10%;
+    padding-top: 3vh;
+    background-color: #f0e8bc;
+}
+
+.flor-individual__foto img{
+    border-radius: 10% 10% 30% 30%;
+}
+
+.flor-individual__detalles{
+    font-family: "Pacifico";
+    border: 3px dashed #ccc07a;
+    border-radius: 10%;
+    padding: 3vh;
+}
+
+.flor-individual__botton{
+    display: flex;
+    gap: 10px;
+}
+
+.flor-individual__precio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3vh;
+    font-family: "Pacifico";
+    border: 3px dashed #ccc07a;
+    border-radius: 10%;
+    padding-left: 3vh;
+}
+
+.flor-individual__comprar{
+    display: flex;
+    flex-direction: column;
+    font-family: "Pacifico";
+}
