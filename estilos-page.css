@@ -130,3 +130,28 @@
     font-size: larger;
     text-align: center;
 }
+
+#title-contacto{
+    font-family: "Pacifico";
+}
+
+#Contacto{
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+    gap: 30px;
+    text-align: center;
+}
+
+#Contacto img{
+    border-radius: 50%;
+}
+
+.carrito-img{
+    background-color: #ccc07a;
+    display: flex;
+    justify-content: center;
+    border-radius: 20% 20%;
+    position: sticky;
+    bottom: 0;
+}
