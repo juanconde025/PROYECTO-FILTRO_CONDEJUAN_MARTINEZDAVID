@@ -112,6 +112,11 @@
     padding-left: 27%;
 }
 
+#catálogo a{
+    text-decoration: none;
+    color: #000;
+}
+
 #catálogo img{
     border-radius: 15% 15% 30% 30% ;
 }
