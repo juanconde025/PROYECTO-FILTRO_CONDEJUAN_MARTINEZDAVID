@@ -66,6 +66,7 @@ body{
 .flor-personalizado a{
     text-decoration: none;
     color: #000;
+    font-family: "Pacifico";
 }
 
 .flor-personalizado__foto img{
