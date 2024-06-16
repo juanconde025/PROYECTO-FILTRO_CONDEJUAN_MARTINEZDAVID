@@ -154,6 +154,10 @@ p {
     margin-bottom: 20px;
 }
 
+.unavailable-inner img{
+    border-radius: 50%;
+}
+
 @media (min-width: 769px) {
     .unavailable-container {
         display: block;
