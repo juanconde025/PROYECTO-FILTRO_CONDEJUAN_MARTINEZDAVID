@@ -27,3 +27,6 @@ Además cuando vayas a seleccionar una flor te direccionará a los detalles de e
 Y al finalizar encontras tu carrito predeterminado 🥳:
 
 ![alt text](image-4.png)
+
+OJO si la pantalla tiene una resolucion de 600 pixeles o más de ancho mostrará un aviso de resolución (Responsive):
+![alt text](image-5.png)
