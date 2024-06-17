@@ -1,5 +1,5 @@
 ##Página Web-Decoraciones Kristal
-En la página inicialmente encontrarás tres (4) apartados iniciales:
+En la página inicialmente encontrarás cinco (5) apartados iniciales:
 
 -Uno es el apartado del panel de presentacion en que se mostrará una transición 
 de dos presentaciones 
