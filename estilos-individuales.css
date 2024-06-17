@@ -156,7 +156,7 @@ p {
     border-radius: 50%;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 600px) {
     .unavailable-container {
         display: block;
     }
