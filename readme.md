@@ -30,3 +30,6 @@ Y al finalizar encontras tu carrito predeterminado 🥳:
 
 OJO si la pantalla tiene una resolucion de 600 pixeles o más de ancho mostrará un aviso de resolución (Responsive):
 ![alt text](image-5.png)
+
+
+https://www.canva.com/design/DAGH9h1Dq2o/u3QFOwfDJKqIELyz81wi8g/edit
