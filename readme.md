@@ -22,8 +22,8 @@ Además cuando vayas a seleccionar una flor te direccionará a los detalles de e
 
 -Para continuar con tu compra debes dar click en el carrito de compra (Añadir al carrito)
 
-![alt text](image-2.png)
+![alt text](image-3.png)
 
 Y al finalizar encontras tu carrito predeterminado 🥳:
 
-![alt text](image-3.png)
+![alt text](image-4.png)
