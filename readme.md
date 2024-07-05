@@ -45,6 +45,6 @@ https://www.canva.com/design/DAGH9h1Dq2o/u3QFOwfDJKqIELyz81wi8g/edit
 Hecho por [JuanConde](https://github.com/juanconde025)
 
 
-https://www.canva.com/design/DAGH9h1Dq2o/u3QFOwfDJKqIELyz81wi8g/edit
+
 
 
