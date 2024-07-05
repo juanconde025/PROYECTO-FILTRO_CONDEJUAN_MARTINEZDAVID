@@ -6,8 +6,7 @@ Este repositorio se uso para el desarrollo de una pagina web diseñada para la v
 |--|--|
 | 1 | [Instalación](#instalaciones) |
 | 2 | [Uso de la página](#uso) |
-
-
+| 3 | [Maquetación](#maquetación)
 
 ### Instalaciones 
 - Deberás descargar el el documento zip 
@@ -38,6 +37,12 @@ Y al finalizar encontras tu carrito predeterminado 🥳:
 > OJO si la pantalla tiene una resolucion de 600 pixeles o más de ancho mostrará un aviso de resolución (Responsive):
 
 ![alt text](image-5.png)
+
+### Maquetacion
+
+https://www.canva.com/design/DAGH9h1Dq2o/u3QFOwfDJKqIELyz81wi8g/edit
+
+Hecho por [JuanConde](https://github.com/juanconde025)
 
 
 https://www.canva.com/design/DAGH9h1Dq2o/u3QFOwfDJKqIELyz81wi8g/edit
