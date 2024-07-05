@@ -1,14 +1,14 @@
-# HTML/CSS PROYECT
+# HTML/CSS PROYECT 🚀
 Este repositorio se uso para el desarrollo de una pagina web diseñada para la venta de flores eternas en un **e-commerce**
 
-## Tabla de contenidos
+## Tabla de contenidos 📋
 | Indice | Titulo  |
 |--|--|
 | 1 | [Instalación](#instalaciones) |
 | 2 | [Uso de la página](#uso) |
 | 3 | [Maquetación](#maquetacion)
 
-### Instalaciones 
+### Instalaciones 🛠️
 - Deberás descargar el el documento zip 
 - Tienes que extraerlo con la opción extraer aquí
 - Desplaza la carpeta generada a Visual Studio Code
@@ -16,7 +16,7 @@ Este repositorio se uso para el desarrollo de una pagina web diseñada para la v
 ![alt text](image.png)
 ![alt text](image-1.png)
 
-### Uso
+### Uso 📲
 En la barra de navegación arriba a la izquierda encontrarás formas de ubicarte en el sitio:
 
 - Inicio
@@ -38,7 +38,7 @@ Y al finalizar encontras tu carrito predeterminado 🥳:
 
 ![alt text](image-5.png)
 
-### Maquetacion
+### Maquetacion ✍🏻
 
 https://www.canva.com/design/DAGH9h1Dq2o/u3QFOwfDJKqIELyz81wi8g/edit
 
