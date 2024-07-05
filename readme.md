@@ -5,7 +5,7 @@ Este repositorio se uso para el desarrollo de una pagina web diseñada para la v
 | Indice | Titulo  |
 |--|--|
 | 1 | [Instalación](#instalaciones) |
-| 2 | [Uso de la página](#uso-de-la-pagina) |
+| 2 | [Uso de la página](#uso) |
 
 
 
