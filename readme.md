@@ -6,7 +6,7 @@ Este repositorio se uso para el desarrollo de una pagina web diseñada para la v
 |--|--|
 | 1 | [Instalación](#instalaciones) |
 | 2 | [Uso de la página](#uso) |
-| 3 | [Maquetación](#maquetación)
+| 3 | [Maquetación](#maquetacion)
 
 ### Instalaciones 
 - Deberás descargar el el documento zip 
