@@ -17,7 +17,7 @@ Este repositorio se uso para el desarrollo de una pagina web diseñada para la v
 ![alt text](image.png)
 ![alt text](image-1.png)
 
-### Uso de la página
+### Uso
 En la barra de navegación arriba a la izquierda encontrarás formas de ubicarte en el sitio:
 
 - Inicio
