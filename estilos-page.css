@@ -48,20 +48,9 @@ body{
 }
 
 #panel-presentación{
-    height: 300px;
-    width: 410px;
-    background-image: url("Panel\ presentacion\ 1.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50vh;
-    transition-property: "background-image";
-    transition-duration: 1s;
-}
-
-#panel-presentación:hover{
-    height: 300px;
-    background-image: url("Panel\ presentacion\ 2.jpg");
-    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
 }
 
 #title-fav{
@@ -192,4 +181,19 @@ p {
     width: 100px;
     height: auto;
     margin-bottom: 20px;
+}
+
+@media (min-width: 600px) {
+    #top-page{
+        justify-content: space-around;
+    }
+    .top-page__center{
+        padding-left: 40vh;
+    }
+    .top-page__right{
+        padding-left: 50vh;
+    }
+    .top-page__left{
+        padding-left: 30vh;
+    }
 }
