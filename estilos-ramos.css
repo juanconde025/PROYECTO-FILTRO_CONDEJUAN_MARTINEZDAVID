@@ -126,3 +126,24 @@ p {
     height: auto;
     margin-bottom: 20px;
 }
+
+@media (min-width: 800px){
+    .flor-ramo{
+        display: grid;
+        grid-template-areas: "foto main" "foto foot";
+        gap: 0;
+    }
+    .flor-ramo__foto{
+        grid-area: foto;
+        display: flex;
+        justify-content: center;
+    }
+    .flor-ramo__botton{
+        grid-area: foot;
+    }
+    .flor-ramo__detalles{
+        grid-area: main;
+        margin-right: 30vh;
+        font-size: 20px;
+    }
+}

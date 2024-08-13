@@ -125,3 +125,24 @@ p {
     height: auto;
     margin-bottom: 20px;
 }
+
+@media (min-width: 800px){
+    .flor-individual{
+        display: grid;
+        grid-template-areas: "foto main" "foto foot";
+        gap: 0;
+    }
+    .flor-individual__foto{
+        grid-area: foto;
+        display: flex;
+        justify-content: center;
+    }
+    .flor-individual__botton{
+        grid-area: foot;
+    }
+    .flor-individual__detalles{
+        grid-area: main;
+        margin-right: 30vh;
+        font-size: 20px;
+    }
+}

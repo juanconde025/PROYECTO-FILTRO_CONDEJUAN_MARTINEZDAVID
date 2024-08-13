@@ -46,10 +46,16 @@ body{
 }
 
 #panel-presentación{
+    width: 200vh;
+    height: 300px;
     display: flex;
     justify-content: center;
-    padding-top: 10vh;
+    background-image: url('Panel\ presentacion\ 2.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    animation: cambiarImagen 9s infinite;
 }
+
 
 #title-fav{
     font-family: "Pacifico";
@@ -181,3 +187,63 @@ p {
     margin-bottom: 20px;
 }
 
+@media (min-width: 800px) {
+    @keyframes cambiarImagen {
+        0% {
+          background-image: url('Panel\ presentacion\ 2.jpg');
+          background-position: left;
+          background-repeat: no-repeat;
+        }
+        25% {
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+        50% {
+          background-image: url('Panel\ presentacion\ 1.png');
+          background-repeat: no-repeat;
+          background-position: right;
+        }
+        75% {
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+        100% {
+          background-image: url("Panel\ presentacion\ 2.jpg");
+          background-position: left;
+          background-repeat: no-repeat;
+        }
+      }
+    #flores-favoritas{
+        display: grid;
+        grid-template-columns: 30vw 30vw 25vw;
+        grid-template-rows: 60vh;
+        gap: 0;
+        padding-left: 10%;
+    }
+    #catálogo{
+        display: grid;
+        grid-template-columns: 30vw 30vw 25vw;
+        grid-template-rows: 60vh;
+        gap: 0;
+        padding-left: 10%;
+    }
+    #Contacto{
+        display: flex;
+        justify-content:flex-start;
+        padding-left: 1%;
+        font-family: "Pacifico";
+    }
+    #Contacto img{
+        width: 10vh;
+    }
+    .instagram{
+        display: flex;
+        flex-direction: column;
+    }
+    .instagram img{
+        padding-left: 30px;
+    }
+    footer{
+        display: block;
+    }
+}
