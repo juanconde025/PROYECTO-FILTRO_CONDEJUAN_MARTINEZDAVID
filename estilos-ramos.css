@@ -3,10 +3,8 @@ body{
 }
 
 #top-page{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 15%;
+    display: grid;
+    grid-template-columns: 45vw 30vw 10vw;
     background-color: rgb(240, 240, 240);
     position: sticky;
     top: 0;
@@ -127,19 +125,4 @@ p {
     width: 120px;
     height: auto;
     margin-bottom: 20px;
-}
-
-@media (min-width: 600px) {
-    #top-page{
-        justify-content: space-around;
-    }
-    .top-page__center{
-        padding-left: 40vh;
-    }
-    .top-page__right{
-        padding-left: 50vh;
-    }
-    .top-page__left{
-        padding-left: 30vh;
-    }
 }
