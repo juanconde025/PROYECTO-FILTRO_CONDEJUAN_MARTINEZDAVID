@@ -127,3 +127,18 @@ p {
     height: auto;
     margin-bottom: 20px;
 }
+
+@media (min-width: 600px) {
+    #top-page{
+        justify-content: space-around;
+    }
+    .top-page__center{
+        padding-left: 40vh;
+    }
+    .top-page__right{
+        padding-left: 50vh;
+    }
+    .top-page__left{
+        padding-left: 30vh;
+    }
+}
