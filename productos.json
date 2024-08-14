@@ -1,0 +1,53 @@
+{
+    "individuales":[
+        {
+            "nombre":"Individual Amarilla",
+            "precio":8000,
+            "foto": "./Individual Amarilla.png"
+        },
+        {
+            "nombre":"Individual Azul",
+            "precio":8000,
+            "foto":"./Individual Azul.png"
+        },
+        {
+            "nombre":"Individual Roja",
+            "precio":8000,
+            "foto":"./Individual Roja.png"
+        },
+        {
+            "nombre":"Individual Rosa",
+            "precio":8000,
+            "foto":"./Individual Rosa.png"
+        },
+        {
+            "nombre":"Individual Amarilla y Blanca",
+            "precio":8000,
+            "foto":"./Individual Amarilla y Blanca.png"
+        },
+        {
+            "nombre":"Individual Azul y Blanca",
+            "precio":8000,
+            "foto":"./Individual Azul y Blanca.png"
+        }
+    ],
+    "ramos":[
+        {
+            "nombre":"Ramo de tres",
+            "precio":20000,
+            "foto":"./ramo de tres.png"
+        },
+        {
+            "nombre":"Ramo de seis",
+            "precio":20000,
+            "foto":"./ramo de seis.png"
+        }
+    ],
+    "personalizados":[
+        {
+            "nombre":"Personalizado DB",
+            "precio":50000,
+            "foto":"./personalizado goku.png"
+        }
+    ]
+}
