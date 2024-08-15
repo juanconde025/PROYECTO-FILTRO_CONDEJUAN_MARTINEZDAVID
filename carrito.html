@@ -63,16 +63,22 @@
             let totalPrecio = 0;
 
             carrito.forEach((producto, index) => {
+                const imagen = document.createElement('img');
+                imagen.setAttribute("src",`${producto.imagen}`);
                 const li = document.createElement('li');
-                li.textContent = `${producto.nombre} - ${producto.precio} COP`;
+                li.classList.add("listado")
+                li.textContent = `${producto.nombre} - ${producto.precio}`;
                 const btnEliminar = document.createElement('button');
+                btnEliminar.classList.add("btn-eliminar")
                 btnEliminar.textContent = 'Eliminar';
                 btnEliminar.addEventListener('click', () => {
                     eliminarProducto(index);
                 });
                 
-                li.appendChild(btnEliminar);
+
                 listaCarrito.appendChild(li);
+                li.appendChild(imagen)
+                li.appendChild(btnEliminar);
 
                 totalPrecio += producto.precio;
             });

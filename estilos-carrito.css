@@ -89,7 +89,7 @@ body{
 }
 
 .total span{
-    padding: 7%;
+    padding: 2%;
     border: 5px dashed #ccc07a;
     border-radius: 12%;
     background-color: #f0e8bc;
@@ -125,4 +125,12 @@ p {
     width: 120px;
     height: auto;
     margin-bottom: 20px;
+}
+
+.btn-eliminar{
+    font-family: "Pacifico";
+}
+
+.listado{
+    font-family: 'Courier New', Courier, monospace;
 }
