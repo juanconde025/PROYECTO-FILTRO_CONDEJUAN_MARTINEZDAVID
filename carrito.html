@@ -37,7 +37,6 @@
                 <ul id="lista-carrito">
                     
                 </ul>
-                <p id="total"></p>
                 <button id="vaciar-carrito">Vaciar Carrito</button>
             </div>
             <div class="total">
@@ -57,7 +56,7 @@
         let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
 
         const listaCarrito = document.getElementById('lista-carrito');
-        const total = document.getElementById('total');
+        const total = document.getElementById('total-carrito');
 
         function mostrarCarrito() {
             listaCarrito.innerHTML = '';
