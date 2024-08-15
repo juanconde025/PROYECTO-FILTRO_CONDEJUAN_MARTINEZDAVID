@@ -37,10 +37,11 @@
                 <ul id="lista-carrito">
                     
                 </ul>
-                <button id="vaciar-carrito">Vaciar Carrito</button>
+                
             </div>
             <div class="total">
                 <span id="total-carrito"></span>
+                <button id="vaciar-carrito">Vaciar Carrito</button>
                 <div class="total__metodos-pago">
                     <p>Metodo de Pago</p>
                     <div>
@@ -67,7 +68,7 @@
                 imagen.setAttribute("src",`${producto.imagen}`);
                 const li = document.createElement('li');
                 li.classList.add("listado")
-                li.textContent = `${producto.nombre} - ${producto.precio}`;
+                li.textContent = `${producto.nombre}  ($${producto.precio})`;
                 const btnEliminar = document.createElement('button');
                 btnEliminar.classList.add("btn-eliminar")
                 btnEliminar.textContent = 'Eliminar';

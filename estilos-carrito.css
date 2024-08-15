@@ -67,6 +67,7 @@ body{
 
 .Producto img{
     border-radius: 10% 10% 30% 30%;
+    width: 20vh;
 }
 
 .Producto:hover{
@@ -129,8 +130,19 @@ p {
 
 .btn-eliminar{
     font-family: "Pacifico";
+    margin-bottom: 3vh;
+    width: 20vh;
 }
 
 .listado{
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+#lista-carrito{
+    display: flex;
+    flex-direction: row;
+    gap: 10vh;
 }
