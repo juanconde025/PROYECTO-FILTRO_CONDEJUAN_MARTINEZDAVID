@@ -163,3 +163,9 @@ p {
 #vaciar-carrito:hover{
     background-color: #c06868;
 }
+
+@media (max-width:800px) {
+    #lista-carrito{
+        flex-direction: column;
+    }
+}
