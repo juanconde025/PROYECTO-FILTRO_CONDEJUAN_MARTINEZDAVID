@@ -61,19 +61,12 @@ body{
     flex-direction: space-between;
     border: 10px solid #ccc07a;
     border-radius: 10%;
-    transition-property: background-color;
-    transition-duration: 1s;
 }
 
 .Producto img{
     border-radius: 10% 10% 30% 30%;
-    width: 20vh;
-    height: 20vh;
-}
-
-.Producto:hover{
-    background-color: #f0e8bc ;
-    text-decoration:underline;
+    width: 40vh;
+    height: 40vh;
 }
 
 .Producto__right{
@@ -140,13 +133,22 @@ p {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 2vh;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+.listado:hover{
+    background-color: #f0e8bc ;
+    text-decoration:underline;
 }
 
 #lista-carrito{
-    display: flex;
-    flex-direction: row;
-    gap: 10vh;
+    display: grid;
+    grid-template-columns: 30vw 30vw 25vw;
+    gap: 2vh;
+
 }
 
 #vaciar-carrito{

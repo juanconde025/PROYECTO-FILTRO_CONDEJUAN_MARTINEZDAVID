@@ -48,10 +48,11 @@ body{
 #panel-presentación{
     width: 200vh;
     height: 300px;
+    max-width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     background-image: url('Panel\ presentacion\ 2.jpg');
-    background-position: left;
     background-repeat: no-repeat;
     animation: cambiarImagen 9s infinite;
 }
@@ -217,14 +218,14 @@ p {
         display: grid;
         grid-template-columns: 30vw 30vw 25vw;
         grid-template-rows: 60vh;
-        gap: 0;
+        gap: 2vh;
         padding-left: 10%;
     }
     #catálogo{
         display: grid;
         grid-template-columns: 30vw 30vw 25vw;
         grid-template-rows: 60vh;
-        gap: 0;
+        gap: 2vh;
         padding-left: 10%;
     }
     #Contacto{
@@ -243,7 +244,10 @@ p {
     .instagram img{
         padding-left: 30px;
     }
-    footer{
-        display: block;
-    }
 }
+
+@media (min-width: 768px) {
+    footer {
+      max-width: 50vh;
+    }
+  }
