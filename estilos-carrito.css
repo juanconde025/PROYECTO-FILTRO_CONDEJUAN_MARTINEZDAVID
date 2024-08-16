@@ -68,6 +68,7 @@ body{
 .Producto img{
     border-radius: 10% 10% 30% 30%;
     width: 20vh;
+    height: 20vh;
 }
 
 .Producto:hover{
@@ -132,6 +133,7 @@ p {
     font-family: "Pacifico";
     margin-bottom: 3vh;
     width: 20vh;
+
 }
 
 .listado{
@@ -145,4 +147,19 @@ p {
     display: flex;
     flex-direction: row;
     gap: 10vh;
+}
+
+#vaciar-carrito{
+    padding: 2%;
+    border: 5px dashed #c05656;
+    border-radius: 12%;
+    background-color: transparent;
+    font-family: "Pacifico";
+    font-size: 20px;
+    transition-property: background;
+    transition-duration: 2s;
+}
+
+#vaciar-carrito:hover{
+    background-color: #c06868;
 }
