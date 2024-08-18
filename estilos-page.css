@@ -270,10 +270,18 @@ p {
     .instagram img{
         padding-left: 30px;
     }
+    footer {
+        max-width: 50vh;
+      }
 }
 
-@media (min-width: 768px) {
-    footer {
-      max-width: 50vh;
+@media (max-width: 768px) {
+    
+    .Producto img{
+        width: 25vh;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
   }
