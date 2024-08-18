@@ -168,6 +168,11 @@ p {
 
 @media (max-width:800px) {
     #lista-carrito{
-        flex-direction: column;
+        grid-template-columns: 70vw;
+        gap: 2vh;
+    }
+    #lista-carrito img{
+        width: 40vw;
+        height: 20vh;
     }
 }
